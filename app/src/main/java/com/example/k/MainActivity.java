@@ -40,11 +40,12 @@ public class MainActivity extends AppCompatActivity {
     public void del_btn(View view){
         int a_number=Integer.parseInt(a.getText().toString());
         int b_number=Integer.parseInt(b.getText().toString());
-        int c=a_number/b_number;
+
         if (b_number==0){
             zero.setVisibility(View.VISIBLE);
         }
         else{
+            int c=a_number/b_number;
             answer.setText(Integer.toString(c));
         }
 
