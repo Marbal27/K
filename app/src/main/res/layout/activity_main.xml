@@ -126,14 +126,22 @@
             android:id="@+id/button11"
             android:layout_width="398dp"
             android:layout_height="86dp"
+            android:backgroundTint="#9C27B0"
             android:onClick="erase"
+            android:shadowColor="#9C27B0"
             android:text="C"
+            android:textColor="#FAFAFA"
+            android:textColorHighlight="#9C27B0"
+            android:textColorHint="#9C27B0"
+            android:textColorLink="#9C27B0"
             android:textSize="24sp"
             app:layout_column="0"
             app:layout_columnSpan="3"
             app:layout_gravity="fill"
             app:layout_row="2"
-            app:layout_rowSpan="1" />
+            app:layout_rowSpan="1"
+            app:rippleColor="#9C27B0"
+            app:strokeColor="#9C27B0" />
 
         <TextView
             android:id="@+id/textView4"

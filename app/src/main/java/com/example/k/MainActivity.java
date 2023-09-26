@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (b_number==0){
             zero.setVisibility(View.VISIBLE);
+            answer.setText("");
         }
         else{
             int c=a_number/b_number;
